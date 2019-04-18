@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage --forceExit"
+    "test": "jest --watchAll --verbose --coverage --forceExit",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.16.0"
   },
   "author": "",
   "license": "ISC",

@@ -2171,3 +2171,5 @@
 {"message":"Connected to mongodb://localhost/vidly_test...","level":"info"}
 {"name":"JsonWebTokenError","message":"jwt malformed","level":"error"}
 {"level":"error","message":"Can't set headers after they are sent.Can't set headers after they are sent.","stack":"Error: Can't set headers after they are sent.\n    at validateHeader (_http_outgoing.js:491:11)\n    at ServerResponse.setHeader (_http_outgoing.js:498:3)\n    at ServerResponse.header (/home/vladimir/workspace/javascript/node-js/vidly-express/node_modules/express/lib/response.js:767:10)\n    at ServerResponse.send (/home/vladimir/workspace/javascript/node-js/vidly-express/node_modules/express/lib/response.js:170:12)\n    at send (/home/vladimir/workspace/javascript/node-js/vidly-express/routes/genres.js:52:7)\n    at <anonymous>"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly...","level":"info"}
