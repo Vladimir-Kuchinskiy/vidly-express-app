@@ -8,9 +8,9 @@ describe("auth middleware", () => {
     server = require("../../index");
     token = new User().generateAuthToken();
   });
+
   afterEach(async () => {
     await Genre.deleteMany({});
-    server.close();
   });
 
   let token;
